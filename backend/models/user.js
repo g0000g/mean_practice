@@ -1,55 +1,55 @@
-const mongoose = require('mongoose')
+const mongoose = require('mongoose');
 
 const userSchema = new mongoose.Schema({
     name: {
         type: String,
-        required: true,
+        required: true
     },
     email: {
         type: String,
-        required: true,
+        required: true
     },
     passwordHash: {
         type: String,
-        required: true,
+        required: true
     },
     phone: {
         type: String,
-        required: true,
+        required: true
     },
     isAdmin: {
         type: Boolean,
-        default: false,
+        default: false
     },
     street: {
         type: String,
-        default: '',
+        default: ''
     },
     apartment: {
         type: String,
-        default: '',
+        default: ''
     },
     zip: {
         type: String,
-        default: '',
+        default: ''
     },
     city: {
         type: String,
-        default: '',
+        default: ''
     },
     country: {
         type: String,
-        default: '',
-    },
-})
+        default: ''
+    }
+});
 
 userSchema.virtual('id').get(function () {
-    return this._id.toHexString()
-})
+    return this._id.toHexString();
+});
 
 userSchema.set('toJSON', {
-    virtuals: true,
-})
+    virtuals: true
+});
 
-exports.User = mongoose.model('User', userSchema)
-exports.userSchema = userSchema
+exports.User = mongoose.model('User', userSchema);
+exports.userSchema = userSchema;
