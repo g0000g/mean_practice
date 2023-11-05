@@ -2,7 +2,7 @@ import { Component } from '@angular/core';
 import { CommonModule } from '@angular/common';
 
 @Component({
-    selector: 'angular-monorepo-home-page',
+    selector: 'eshop-home-page',
     standalone: true,
     imports: [CommonModule],
     templateUrl: './home-page.component.html',

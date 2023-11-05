@@ -5,7 +5,7 @@ import { NxWelcomeComponent } from './nx-welcome.component';
 @Component({
     standalone: true,
     imports: [NxWelcomeComponent, RouterModule],
-    selector: 'angular-monorepo-root',
+    selector: 'admin-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.sass']
 })
