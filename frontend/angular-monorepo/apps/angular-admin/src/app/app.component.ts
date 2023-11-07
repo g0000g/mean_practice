@@ -6,8 +6,7 @@ import { NxWelcomeComponent } from './nx-welcome.component';
     standalone: true,
     imports: [NxWelcomeComponent, RouterModule],
     selector: 'admin-root',
-    templateUrl: './app.component.html',
-    styleUrls: ['./app.component.sass']
+    templateUrl: './app.component.html'
 })
 export class AppComponent {
     title = 'angular-admin';

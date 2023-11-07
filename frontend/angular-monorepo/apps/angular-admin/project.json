@@ -16,7 +16,7 @@
                 "polyfills": ["zone.js"],
                 "tsConfig": "apps/angular-admin/tsconfig.app.json",
                 "assets": ["apps/angular-admin/src/favicon.ico", "apps/angular-admin/src/assets"],
-                "styles": ["apps/angular-admin/src/styles.sass"],
+                "styles": ["apps/angular-admin/src/styles.scss"],
                 "scripts": []
             },
             "configurations": {

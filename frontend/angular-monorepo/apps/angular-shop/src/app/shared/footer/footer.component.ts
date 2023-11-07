@@ -5,7 +5,6 @@ import { CommonModule } from '@angular/common';
     selector: 'eshop-footer',
     standalone: true,
     imports: [CommonModule],
-    templateUrl: './footer.component.html',
-    styleUrls: ['./footer.component.scss']
+    templateUrl: './footer.component.html'
 })
 export class FooterComponent {}
